@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "DarazWebFont";
+  src: local("DarazWebFont"),
+  url(~assets/fonts/PublicSans-Regular.ttf) format("truetype");
+}
+
+html {
+  font-family: "DarazWebFont";
+}
