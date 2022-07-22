@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-      <img :src="require('~/assets/image/daraz.svg')" class="w-24 xl:w-28 mx-auto" alt="Logo"/>
+      <img :src="require('~/assets/image/sharingan.svg')" class="w-24 xl:w-28 mx-auto" alt="Logo"/>
       <p class="my-4 text-lg md:text-2xl font-extrabold text-dark-blue">Enter your credential</p>
     </div>
 

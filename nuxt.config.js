@@ -19,11 +19,7 @@ export default {
     link: [
       {
         rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'
-      },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'
-      // }
+      }
     ]
   },
 
@@ -51,9 +47,10 @@ export default {
   ],
 
   env: {
+    backendUrl: 'http://team-portfolio.dev/image/' // localhost
     // backendUrl: 'http://127.0.0.1:8000/image/' // localhost
     // backendUrl: 'http://192.168.31.232:80/image/' // home-ip
-    backendUrl: 'http://30.216.141.146:80/image/' // office-ip
+    // backendUrl: 'http://30.216.141.146:80/image/' // office-ip
   },
 
   // customize progress bar
@@ -68,9 +65,8 @@ export default {
   // <--module components start
 
   axios: {
+    baseURL: 'http://team-portfolio.dev/api/' // localhost
     // baseURL: 'http://127.0.0.1:8000/api/' // localhost
-    // baseURL: 'http://192.168.31.232:80/api/' // home-ip
-    baseURL: 'http://30.216.141.146:80/api/' // office-ip
   },
 
   // module components end -->
@@ -83,7 +79,7 @@ export default {
   },
 
   // creates public server
-  server: {
-    host: '0' // default: localhost
-  }
+  // server: {
+  //   host: '0' // default: localhost
+  // }
 }
